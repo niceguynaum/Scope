@@ -1,0 +1,1650 @@
+{
+    "AccessControlException": {
+        "definition": "Thrown when access to a resource is denied due to insufficient permissions or security restrictions.",
+        "weighting": 1
+    },
+    "AccessDeniedException": {
+        "definition": "Indicates that access to a file, directory, or resource was explicitly denied.",
+        "weighting": 1
+    },
+    "ApplicationConfigurationException": {
+        "definition": "Thrown when there is an issue with the application's configuration, such as missing or invalid settings.",
+        "weighting": 1
+    },
+    "ArithmeticException": {
+        "definition": "Thrown when an arithmetic operation results in an error, such as division by zero or numeric overflow.",
+        "weighting": 1
+    },
+    "AtlasClientException": {
+        "definition": "Indicates an error or failure in the Apache Atlas client during communication or operation.",
+        "weighting": 1
+    },
+    "AtlasException": {
+        "definition": "A general exception related to the Apache Atlas service, often indicating a failure in metadata management.",
+        "weighting": 1
+    },
+    "AtlasServiceException": {
+        "definition": "Thrown when the Apache Atlas service encounters an error or fails to process a request.",
+        "weighting": 1
+    },
+    "AuthenticationException": {
+        "definition": "Indicates a failure in the authentication process, such as invalid credentials or token expiration.",
+        "weighting": 1
+    },
+    "AzureException": {
+        "definition": "Thrown when an error occurs while interacting with Microsoft Azure services, such as resource access or API failures.",
+        "weighting": 1
+    },
+    "BadRequestException": {
+        "definition": "Indicates that the server cannot process the request due to a client-side error, such as invalid input or malformed requests.",
+        "weighting": 1
+    },
+    "BigQueryException": {
+        "definition": "Thrown when an error occurs while interacting with Google BigQuery, such as query failures or API issues.",
+        "weighting": 1
+    },
+    "BlockMissingException": {
+        "definition": "Indicates that a required block of data is missing, often in distributed storage systems.",
+        "weighting": 1
+    },
+    "BrokenBarrierException": {
+        "definition": "Thrown when a thread attempts to wait on a barrier that is broken or reset.",
+        "weighting": 1
+    },
+    "CancelledImportException": {
+        "definition": "Indicates that an import operation was canceled before completion.",
+        "weighting": 1
+    },
+    "CatchMayIgnoreException": {
+        "definition": "Thrown when an exception is caught but may be ignored due to specific conditions.",
+        "weighting": 1
+    },
+    "CharacterCodingException": {
+        "definition": "Indicates an error in character encoding or decoding, such as unsupported character sets.",
+        "weighting": 1
+    },
+    "ClassCastException": {
+        "definition": "Thrown when an object is cast to a class that it is not an instance of.",
+        "weighting": 1
+    },
+    "ClassNotFoundException": {
+        "definition": "Indicates that a specified class could not be found during runtime.",
+        "weighting": 1
+    },
+    "ClientException": {
+        "definition": "A generic exception indicating a client-side error, such as invalid requests or connection issues.",
+        "weighting": 1
+    },
+    "ColumnNotFoundException": {
+        "definition": "Thrown when a specified column is not found in a dataset or database.",
+        "weighting": 1
+    },
+    "CompressionException": {
+        "definition": "Indicates an error during compression or decompression of data.",
+        "weighting": 1
+    },
+    "ConfigurationException": {
+        "definition": "Thrown when there is an issue with configuration settings, such as missing or invalid parameters.",
+        "weighting": 1
+    },
+    "ContainerLaunchException": {
+        "definition": "Indicates a failure to launch a container in a distributed or containerized environment.",
+        "weighting": 1
+    },
+    "CreationException": {
+        "definition": "Thrown when an object or resource cannot be created due to errors or constraints.",
+        "weighting": 1
+    },
+    "DataProductException": {
+        "definition": "Indicates an error related to a data product, such as invalid metadata or processing issues.",
+        "weighting": 1
+    },
+    "DateTimeException": {
+        "definition": "Thrown when an error occurs while processing date-time information, such as invalid formats.",
+        "weighting": 1
+    },
+    "DateTimeParseException": {
+        "definition": "Thrown when a date-time string cannot be parsed due to invalid syntax or unsupported formats.",
+        "weighting": 1
+    },
+    "DescriptorValidationException": {
+        "definition": "Indicates a failure to validate a descriptor, such as schema or metadata validation errors.",
+        "weighting": 1
+    },
+    "DuplicateKeyException": {
+        "definition": "Thrown when a duplicate key is encountered in a collection, map, or database.",
+        "weighting": 1
+    },
+    "Exception": {
+        "definition": "The base class for all exceptions, representing a general error or unexpected condition.",
+        "weighting": 1
+    },
+    "ExecutionException": {
+        "definition": "Thrown when attempting to retrieve the result of a task that failed during execution.",
+        "weighting": 1
+    },
+    "FailsafeException": {
+        "definition": "Indicates a failure in a failsafe mechanism, such as retries or fallback logic.",
+        "weighting": 1
+    },
+    "FailureException": {
+        "definition": "A generic exception indicating a failure occurred during an operation.",
+        "weighting": 1
+    },
+    "FileNotFoundException": {
+        "definition": "Indicates that a specified file could not be found.",
+        "weighting": 1
+    },
+    "FinalizedImportException": {
+        "definition": "Thrown when an import operation has been finalized and cannot be modified.",
+        "weighting": 1
+    },
+    "ForbiddenException": {
+        "definition": "Indicates that access to a resource is forbidden due to insufficient permissions.",
+        "weighting": 1
+    },
+    "GSSException": {
+        "definition": "Thrown when an error occurs in the Generic Security Services (GSS) API, often related to authentication or encryption.",
+        "weighting": 1
+    },
+    "GeneralSecurityException": {
+        "definition": "A generic security exception, such as cryptographic or authentication failures.",
+        "weighting": 1
+    },
+    "IOException": {
+        "definition": "Thrown when an I/O operation fails or is interrupted.",
+        "weighting": 1
+    },
+    "IllegalAccessException": {
+        "definition": "Thrown when an application tries to access a class, method, or field illegally.",
+        "weighting": 1
+    },
+    "IllegalArgumentException": {
+        "definition": "Thrown when a method receives an argument that is invalid or inappropriate.",
+        "weighting": 1
+    },
+    "IllegalStateException": {
+        "definition": "Indicates that a method has been invoked at an inappropriate time or state",
+        "weighting": 1
+    },
+    "InsightsConfigurationException": {
+        "definition": "Thrown when there is an issue with the configuration of the Insights module.",
+        "weighting": 1
+    },
+    "InterruptedException": {
+        "definition": "Indicates that a thread was interrupted while waiting, sleeping, or performing another blocking operation.",
+        "weighting": 1
+    },
+    "InvalidEndpointException": {
+        "definition": "Thrown when an endpoint URL is invalid or malformed.",
+        "weighting": 1
+    },
+    "InvalidExitValueException": {
+        "definition": "Indicates that a process exited with an unexpected or invalid exit code.",
+        "weighting": 1
+    },
+    "InvalidKeyException": {
+        "definition": "Thrown when an invalid cryptographic key is used.",
+        "weighting": 1
+    },
+    "InvalidKeySpecException": {
+        "definition": "Indicates that a key specification is invalid or unsupported.",
+        "weighting": 1
+    },
+    "InvalidPortException": {
+        "definition": "Thrown when a specified port number is invalid or out of range.",
+        "weighting": 1
+    },
+    "InvalidProtocolBufferException": {
+        "definition": "Indicates an error while parsing or processing protocol buffer data.",
+        "weighting": 1
+    },
+    "InvocationTargetException": {
+        "definition": "Thrown when a method invoked via reflection throws an exception.",
+        "weighting": 1
+    },
+    "JOSEException": {
+        "definition": "Indicates an error in the Java Object Signing and Encryption (JOSE) framework.",
+        "weighting": 1
+    },
+    "JSchException": {
+        "definition": "Thrown when an error occurs in the JSch library, often related to SSH connections.",
+        "weighting": 1
+    },
+    "JdbcSQLDataException": {
+        "definition": "Indicates an error related to SQL data in a JDBC operation.",
+        "weighting": 1
+    },
+    "JdbiException": {
+        "definition": "Thrown when an error occurs in the JDBI library, often related to database interactions.",
+        "weighting": 1
+    },
+    "JsonProcessingException": {
+        "definition": "Indicates an error while processing JSON data, such as parsing or serialization issues.",
+        "weighting": 1
+    },
+    "JwtException": {
+        "definition": "Thrown when an error occurs while processing JSON Web Tokens (JWT), such as validation failures.",
+        "weighting": 1
+    },
+    "KeyLengthException": {
+        "definition": "Indicates that a cryptographic key length is invalid or unsupported.",
+        "weighting": 1
+    },
+    "KeyProviderException": {
+        "definition": "Thrown when an error occurs while retrieving or managing cryptographic keys.",
+        "weighting": 1
+    },
+    "KeyStoreException": {
+        "definition": "Indicates an error while accessing or managing a keystore.",
+        "weighting": 1
+    },
+    "LifeCycleStopException": {
+        "definition": "Thrown when an error occurs while stopping a component's lifecycle.",
+        "weighting": 1
+    },
+    "LoginException": {
+        "definition": "Indicates a failure during the login process, such as invalid credentials.",
+        "weighting": 1
+    },
+    "MalformedURLException": {
+        "definition": "Thrown when a URL is invalid or incorrectly formatted.",
+        "weighting": 1
+    },
+    "MaterializedViewNotFoundException": {
+        "definition": "Indicates that a specified materialized view could not be found.",
+        "weighting": 1
+    },
+    "MissingOffsetIndexException": {
+        "definition": "Thrown when an offset index is missing in a data stream or log.",
+        "weighting": 1
+    },
+    "NamespaceNotFoundException": {
+        "definition": "Indicates that a specified namespace could not be found.",
+        "weighting": 1
+    },
+    "NoSuchAlgorithmException": {
+        "definition": "Thrown when a requested cryptographic algorithm is not available.",
+        "weighting": 1
+    },
+    "NoSuchElementException": {
+        "definition": "Indicates that an attempt to access an element that does not exist was made.",
+        "weighting": 1
+    },
+    "NoSuchFieldException": {
+        "definition": "Thrown when a specified field is not found in a class.",
+        "weighting": 1
+    },
+    "NoSuchMethodException": {
+        "definition": "Indicates that a specified method could not be found in a class.",
+        "weighting": 1
+    },
+    "NoSuchObjectException": {
+        "definition": "Thrown when a specified object is not found in a registry or system.",
+        "weighting": 1
+    },
+    "NoSuchPaddingException": {
+        "definition": "Indicates that a requested cryptographic padding scheme is not available.",
+        "weighting": 1
+    },
+    "NotFoundException": {
+        "definition": "Thrown when a requested resource or entity is not found.",
+        "weighting": 1
+    },
+    "NotImplementedException": {
+        "definition": "Indicates that a method or feature is not implemented.",
+        "weighting": 1
+    },
+    "NullPointerException": {
+        "definition": "Thrown when an application attempts to use null where an object is required.",
+        "weighting": 1
+    },
+    "NumberFormatException": {
+        "definition": "Indicates that a string could not be parsed as a number.",
+        "weighting": 1
+    },
+    "ParallelImportException": {
+        "definition": "Thrown when an error occurs during a parallel import operation.",
+        "weighting": 1
+    },
+    "ParquetCorruptionException": {
+        "definition": "Indicates corruption in a Parquet file or data.",
+        "weighting": 1
+    },
+    "ParquetDecodingException": {
+        "definition": "Thrown when an error occurs while decoding Parquet data.",
+        "weighting": 1
+    },
+    "ParseException": {
+        "definition": "Thrown when an error occurs during the parsing of data or input.",
+        "weighting": 1
+    },
+    "ParsingException": {
+        "definition": "Thrown when an error occurs during the parsing of data or input.",
+        "weighting": 1
+    },
+    "PlaywrightException": {
+        "definition": "Indicates an error in the Playwright library, often related to browser automation.",
+        "weighting": 1
+    },
+    "PleaseHoldException": {
+        "definition": "Thrown when an operation is temporarily paused or delayed.",
+        "weighting": 1
+    },
+    "PrestoException": {
+        "definition": "Indicates an error in the Presto SQL engine, such as query failures.",
+        "weighting": 1
+    },
+    "PrivilegedActionException": {
+        "definition": "Thrown when an exception occurs during the execution of a privileged action.",
+        "weighting": 1
+    },
+    "ProtocolDetectionException": {
+        "definition": "Indicates a failure to detect or identify a communication protocol.",
+        "weighting": 1
+    },
+    "QueryExecutionException": {
+        "definition": "Thrown when an error occurs during the execution of a query.",
+        "weighting": 1
+    },
+    "RecognitionException": {
+        "definition": "Indicates a failure in recognizing input, often in parsing or lexical analysis.",
+        "weighting": 1
+    },
+    "ReflectiveOperationException": {
+        "definition": "A base exception for reflection-related errors, such as accessing methods or fields.",
+        "weighting": 1
+    },
+    "RejectedExecutionException": {
+        "definition": "Thrown when a task cannot be executed because it was rejected by an executor.",
+        "weighting": 1
+    },
+    "RemoteException": {
+        "definition": "Thrown when a remote method call fails, often due to network or server issues.",
+        "weighting": 1
+    },
+    "RestClientException": {
+        "definition": "Indicates an error in a REST client, such as connection failures or invalid responses.",
+        "weighting": 1
+    },
+    "RunnerException": {
+        "definition": "Thrown when an error occurs in a task or job runner.",
+        "weighting": 1
+    },
+    "RuntimeException": {
+        "definition": "A generic exception indicating an unexpected runtime error.",
+        "weighting": 1
+    },
+    "SQLException": {
+        "definition": "Thrown when a database access error occurs or a SQL operation fails.",
+        "weighting": 1
+    },
+    "SQLFeatureNotSupportedException": {
+        "definition": "Indicates that a requested SQL feature is not supported by the database.",
+        "weighting": 1
+    },
+    "SQLIntegrityConstraintViolationException": {
+        "definition": "Thrown when a database integrity constraint, such as a primary key or foreign key, is violated.",
+        "weighting": 1
+    },
+    "SQLRecoverableException": {
+        "definition": "Indicates a recoverable database error, allowing the operation to be retried.",
+        "weighting": 1
+    },
+    "SQLServerException": {
+        "definition": "Thrown when an error occurs specific to Microsoft SQL Server.",
+        "weighting": 1
+    },
+    "SQLSyntaxErrorException": {
+        "definition": "Indicates a syntax error in a SQL query.",
+        "weighting": 1
+    },
+    "SQLTransientException": {
+        "definition": "Thrown for transient database errors that may succeed if retried.",
+        "weighting": 1
+    },
+    "SchemaNotFoundException": {
+        "definition": "Indicates that a specified database schema could not be found.",
+        "weighting": 1
+    },
+    "SecurityException": {
+        "definition": "Thrown when a security violation occurs, such as unauthorized access.",
+        "weighting": 1
+    },
+    "SemanticException": {
+        "definition": "Indicates an error in the semantic analysis of a query or operation.",
+        "weighting": 1
+    },
+    "SentryAccessDeniedException": {
+        "definition": "Thrown when access is denied by Apache Sentry due to insufficient permissions.",
+        "weighting": 1
+    },
+    "SentryNoSuchObjectException": {
+        "definition": "Indicates that a specified object is not found in Apache Sentry.",
+        "weighting": 1
+    },
+    "SentryUserException": {
+        "definition": "Thrown for user-related errors in Apache Sentry, such as invalid requests.",
+        "weighting": 1
+    },
+    "SftpException": {
+        "definition": "Indicates an error during an SFTP operation, such as file transfer failures.",
+        "weighting": 1
+    },
+    "SignatureException": {
+        "definition": "Thrown when a cryptographic signature is invalid or cannot be processed.",
+        "weighting": 1
+    },
+    "SkipException": {
+        "definition": "Indicates that a test or operation is intentionally skipped.",
+        "weighting": 1
+    },
+    "SnowflakeSQLException": {
+        "definition": "Thrown when an error occurs specific to Snowflake SQL operations.",
+        "weighting": 1
+    },
+    "SocketException": {
+        "definition": "Indicates an error in socket operations, such as connection failures.",
+        "weighting": 1
+    },
+    "SocketTimeoutException": {
+        "definition": "Thrown when a socket operation times out.",
+        "weighting": 1
+    },
+    "StarburstLicenseException": {
+        "definition": "Indicates a licensing issue specific to Starburst software.",
+        "weighting": 1
+    },
+    "StorageException": {
+        "definition": "Thrown when an error occurs in storage operations, such as file or cloud storage failures.",
+        "weighting": 1
+    },
+    "StringIndexOutOfBoundsException": {
+        "definition": "Indicates that a string index is out of range during string operations.",
+        "weighting": 1
+    },
+    "TException": {
+        "definition": "A generic exception in Apache Thrift, often indicating communication or serialization issues.",
+        "weighting": 1
+    },
+    "TableAlreadyExistsException": {
+        "definition": "Thrown when attempting to create a table that already exists.",
+        "weighting": 1
+    },
+    "TableExistsException": {
+        "definition": "Indicates that a table already exists in the database.",
+        "weighting": 1
+    },
+    "TableNotFoundException": {
+        "definition": "Thrown when a specified table cannot be found in the database.",
+        "weighting": 1
+    },
+    "TestAbortedException": {
+        "definition": "Indicates that a test was aborted, typically due to unmet preconditions or external factors.",
+        "weighting": 1
+    },
+    "TimeoutException": {
+        "definition": "Thrown when an operation exceeds the allowed time limit.",
+        "weighting": 1
+    },
+    "TrinoException": {
+        "definition": "Indicates an error specific to the Trino SQL engine, such as query execution failures.",
+        "weighting": 1
+    },
+    "TypeConversionException": {
+        "definition": "Thrown when a type conversion operation fails, such as parsing a string to a number.",
+        "weighting": 1
+    },
+    "URISyntaxException": {
+        "definition": "Indicates that a URI string is malformed or violates URI syntax rules.",
+        "weighting": 1
+    },
+    "UnableToExecuteStatementException": {
+        "definition": "Thrown when a database statement cannot be executed.",
+        "weighting": 1
+    },
+    "UnavailableException": {
+        "definition": "Indicates that a required resource or service is unavailable.",
+        "weighting": 1
+    },
+    "UncheckedExecutionException": {
+        "definition": "Thrown when an unchecked exception occurs during the execution of a task.",
+        "weighting": 1
+    },
+    "UncheckedIOException": {
+        "definition": "Indicates an unchecked I/O error, such as a file read/write failure.",
+        "weighting": 1
+    },
+    "UncheckedTimeoutException": {
+        "definition": "Thrown when an operation times out in an unchecked context.",
+        "weighting": 1
+    },
+    "UniversalConnectionPoolException": {
+        "definition": "Indicates an error in the Universal Connection Pool, such as connection acquisition failures.",
+        "weighting": 1
+    },
+    "UnknownHostException": {
+        "definition": "Thrown when a hostname cannot be resolved to an IP address.",
+        "weighting": 1
+    },
+    "UnrecoverableEntryException": {
+        "definition": "Indicates that a keystore entry cannot be recovered.",
+        "weighting": 1
+    },
+    "UnrecoverableKeyException": {
+        "definition": "Thrown when a cryptographic key cannot be recovered from a keystore.",
+        "weighting": 1
+    },
+    "UnsupportedOperationException": {
+        "definition": "Indicates that a requested operation is not supported.",
+        "weighting": 1
+    },
+    "UserMappingException": {
+        "definition": "Thrown when a user mapping configuration error occurs.",
+        "weighting": 1
+    },
+    "VerificationException": {
+        "definition": "Indicates a failure in verifying data, such as cryptographic signatures.",
+        "weighting": 1
+    },
+    "VerifyException": {
+        "definition": "Thrown when a verification check fails, often used in assertions.",
+        "weighting": 1
+    },
+    "ViewAlreadyExistsException": {
+        "definition": "Indicates that a database view with the specified name already exists.",
+        "weighting": 1
+    },
+    "WebApplicationException": {
+        "definition": "Thrown when an error occurs in a web application, often related to HTTP responses.",
+        "weighting": 1
+    },
+    "assertThatIllegalArgumentException": {
+        "definition": "Used in testing to assert that an IllegalArgumentException is thrown.",
+        "weighting": 1
+    },
+    "assertThatNoException": {
+        "definition": "Used in testing to assert that no exception is thrown during execution.",
+        "weighting": 1
+    },
+    "atlasServiceException": {
+        "definition": "Indicates an error in the Apache Atlas service, such as metadata management failures.",
+        "weighting": 1
+    },
+    "clientException": {
+        "definition": "Thrown when an error occurs on the client side, such as invalid requests or connection issues.",
+        "weighting": 1
+    },
+    "closeException": {
+        "definition": "Indicates a failure during the closing of a resource, such as a file or connection.",
+        "weighting": 1
+    },
+    "corruptionException": {
+        "definition": "Thrown when data corruption is detected.",
+        "weighting": 1
+    },
+    "descriptorValidationException": {
+        "definition": "Indicates a failure in validating a descriptor, such as a protocol buffer schema.",
+        "weighting": 1
+    },
+    "disposeLogException": {
+        "definition": "Thrown when an error occurs while disposing of log resources.",
+        "weighting": 1
+    },
+    "doesNotThrowAnyException": {
+        "definition": "Used in testing to assert that no exceptions are thrown during execution.",
+        "weighting": 1
+    },
+    "errorResponseException": {
+        "definition": "Indicates that an error response was received from a server or service.",
+        "weighting": 1
+    },
+    "expectedTrinoException": {
+        "definition": "Used in testing to assert that a specific Trino exception is expected.",
+        "weighting": 1
+    },
+    "getException": {
+        "definition": "Indicates an error occurred while retrieving an exception or its details.",
+        "weighting": 1
+    },
+    "getExecutionException": {
+        "definition": "Thrown when an error occurs during the execution of a task or operation.",
+        "weighting": 1
+    },
+    "getNextException": {
+        "definition": "Used to retrieve the next exception in a chain of SQL exceptions.",
+        "weighting": 1
+    },
+    "handleAccessDeniedException": {
+        "definition": "Thrown when handling access denial errors, typically related to permissions.",
+        "weighting": 1
+    },
+    "handleAtlasException": {
+        "definition": "Indicates an error occurred while handling an Apache Atlas-related exception.",
+        "weighting": 1
+    },
+    "handleException": {
+        "definition": "A generic exception handler for processing errors.",
+        "weighting": 1
+    },
+    "handleTestExecutionException": {
+        "definition": "Thrown when handling exceptions during test execution.",
+        "weighting": 1
+    },
+    "holderException": {
+        "definition": "Indicates an error related to a holder object or container.",
+        "weighting": 1
+    },
+    "ignoreException": {
+        "definition": "Used to explicitly ignore an exception during execution.",
+        "weighting": 1
+    },
+    "ioException": {
+        "definition": "Thrown when an input/output operation fails, such as file reading or writing.",
+        "weighting": 1
+    },
+    "isFileNotFoundException": {
+        "definition": "Indicates a check for whether an exception is a FileNotFoundException.",
+        "weighting": 1
+    },
+    "isTrinoException": {
+        "definition": "Indicates a check for whether an exception is a Trino-specific exception.",
+        "weighting": 1
+    },
+    "jdbiException": {
+        "definition": "Thrown when an error occurs in JDBI, a database interaction library.",
+        "weighting": 1
+    },
+    "lastAttemptException": {
+        "definition": "Indicates an error occurred during the last attempt of a retryable operation.",
+        "weighting": 1
+    },
+    "loginException": {
+        "definition": "Thrown when a login operation fails, such as due to invalid credentials.",
+        "weighting": 1
+    },
+    "malformedURLException": {
+        "definition": "Indicates that a URL is invalid or improperly formatted.",
+        "weighting": 1
+    },
+    "notFoundException": {
+        "definition": "Thrown when a requested resource or entity is not found.",
+        "weighting": 1
+    },
+    "oldException": {
+        "definition": "A placeholder for deprecated or legacy exceptions.",
+        "weighting": 1
+    },
+    "parsingException": {
+        "definition": "Thrown when an error occurs during the parsing of data or input.",
+        "weighting": 1
+    },
+    "privilegedActionException": {
+        "definition": "Indicates an error occurred during the execution of a privileged action.",
+        "weighting": 1
+    },
+    "rollbackException": {
+        "definition": "Thrown when a transaction rollback operation fails.",
+        "weighting": 1
+    },
+    "serviceException": {
+        "definition": "Indicates an error occurred in a service layer or component.",
+        "weighting": 1
+    },
+    "setNextException": {
+        "definition": "Used to set the next exception in a chain of SQL exceptions.",
+        "weighting": 1
+    },
+    "snowflakeSQLException": {
+        "definition": "Thrown when an error occurs specific to Snowflake SQL operations.",
+        "weighting": 1
+    },
+    "sqlException": {
+        "definition": "Indicates a generic SQL-related error, such as database access issues.",
+        "weighting": 1
+    },
+    "testLogMessageWithException": {
+        "definition": "Used in testing to verify logging behavior when exceptions occur.",
+        "weighting": 1
+    },
+    "testNullFeatureRaisesNullPointerException": {
+        "definition": "Used in testing to assert that a NullPointerException is raised for null features.",
+        "weighting": 1
+    },
+    "testNumberRoundingException": {
+        "definition": "Used in testing to verify exceptions related to number rounding errors.",
+        "weighting": 1
+    },
+    "testPathIsNullDocUrlThrowsException": {
+        "definition": "Used in testing to assert that a null path for a document URL raises an exception.",
+        "weighting": 1
+    },
+    "testPropagatesVerificationException": {
+        "definition": "Used in testing to verify that a VerificationException is correctly propagated when it occurs.",
+        "weighting": 1
+    },
+    "testRaisesTrinoExceptionIfIdentityDocumentDownloadRaisesIoException": {
+        "definition": "Used in testing to ensure that a TrinoException is raised when an IOException occurs during identity document download.",
+        "weighting": 1
+    },
+    "testReturnsEmptyOptionIfInstanceIdentityRootDownloadRaisesIOException": {
+        "definition": "Used in testing to confirm that an empty result is returned when an IOException occurs during instance identity root download.",
+        "weighting": 1
+    },
+    "testWrapsJsonProblemsInTrinoException": {
+        "definition": "Used in testing to verify that JSON-related issues are wrapped in a TrinoException.",
+        "weighting": 1
+    },
+    "throwEndOfBatchException": {
+        "definition": "Indicates an exception thrown at the end of a batch process, often signaling a batch-specific error.",
+        "weighting": 1
+    },
+    "trinoException": {
+        "definition": "Represents a generic exception in the Trino SQL engine, typically used for query or execution errors.",
+        "weighting": 1
+    },
+    "wrongVersionException": {
+        "definition": "Thrown when an operation encounters an incompatible or unexpected version of a resource or component.",
+        "weighting": 1
+    },
+    "ch.qos.logback.core": {
+        "definition": "Core components of the Logback logging framework, used for logging in Java applications."
+    },
+    "ch.qos.logback.core.encoder": {
+        "definition": "Handles encoding of log messages into specific formats (e.g., JSON, plain text) in Logback."
+    },
+    "ch.qos.logback.core.rolling": {
+        "definition": "Manages rolling log files (e.g., rotating logs based on size or time) in Logback."
+    },
+    "ch.qos.logback.core.util": {
+        "definition": "Utility classes for Logback's core functionality."
+    },
+    "com.github.benmanes.caffeine.cache": {
+        "definition": "High-performance caching library for Java, often used for in-memory caching."
+    },
+    "com.google.gson": {
+        "definition": "Library for converting Java objects to JSON and vice versa."
+    },
+    "com.ibm.db2.jcc": {
+        "definition": "JDBC driver for connecting Java applications to IBM DB2 databases."
+    },
+    "com.jcraft.jsch": {
+        "definition": "Library for SSH communication and file transfer (SFTP) in Java."
+    },
+    "com.microsoft.playwright": {
+        "definition": "Library for browser automation, often used for testing web applications."
+    },
+    "com.microsoft.sqlserver.jdbc": {
+        "definition": "JDBC driver for connecting Java applications to Microsoft SQL Server databases."
+    },
+    "com.mysql.cj.jdbc": {
+        "definition": "JDBC driver for connecting Java applications to MySQL databases."
+    },
+    "com.nimbusds.oauth2": {
+        "definition": "Library for handling OAuth 2.0 authentication and authorization flows."
+    },
+    "com.onelogin.saml2": {
+        "definition": "Library for implementing SAML 2.0 single sign-on (SSO) in Java applications."
+    },
+    "com.sap.db.jdbc": {
+        "definition": "JDBC driver for connecting Java applications to SAP databases."
+    },
+    "com.singlestore.jdbc": {
+        "definition": "JDBC driver for connecting Java applications to SingleStore databases."
+    },
+    "com.starburstdata.cache": {
+        "definition": "Caching functionality in Starburst Data's products."
+    },
+    "com.starburstdata.cache.resource": {
+        "definition": "Manages cached resources in Starburst Data's caching system."
+    },
+    "com.starburstdata.cache.resultscache": {
+        "definition": "Handles caching of query results in Starburst Data's caching system."
+    },
+    "com.starburstdata.cache.resultscache.telemetry": {
+        "definition": "Provides telemetry (monitoring and reporting) for the result cache in Starburst Data's system."
+    },
+    "com.starburstdata.cache.rules": {
+        "definition": "Manages caching rules in Starburst Data's caching system."
+    },
+    "com.starburstdata.cache.trino": {
+        "definition": "Handles caching mechanisms specific to Trino queries or operations in Starburst Data's caching system."
+    },
+    "com.starburstdata.cache.typemapping": {
+        "definition": "Manages type mapping for cached data, ensuring compatibility between different data types in the caching layer."
+    },
+    "com.starburstdata.managed.statistics.coordinator": {
+        "definition": "Coordinates the collection, management, and distribution of statistics for query optimization in a managed Starburst environment."
+    },
+    "com.starburstdata.presto.awsproxy": {
+        "definition": "Provides functionality for proxying requests to AWS services within the context of Presto or Trino."
+    },
+    "com.starburstdata.presto.awsproxy.credentials": {
+        "definition": "Manages AWS credentials for secure access to AWS services through the proxy."
+    },
+    "com.starburstdata.presto.awsproxy.server.remote": {
+        "definition": "Handles remote server communication for AWS proxy operations in Presto or Trino."
+    },
+    "com.starburstdata.presto.biac.event": {
+        "definition": "Manages events related to BIAC (Business Intelligence and Analytics Connector) in Presto or Trino."
+    },
+    "com.starburstdata.presto.biac.storage.migration": {
+        "definition": "Handles storage migration tasks for BIAC, ensuring data is moved or transformed as needed."
+    },
+    "com.starburstdata.presto.connector": {
+        "definition": "Represents connectors in Presto or Trino, enabling integration with various data sources."
+    },
+    "com.starburstdata.presto.dataproduct": {
+        "definition": "Provides core functionality for managing data products in Presto or Trino."
+    },
+    "com.starburstdata.presto.dataproduct.api": {
+        "definition": "Defines APIs for interacting with data products, enabling external systems to access or manage them."
+    },
+    "com.starburstdata.presto.dataproduct.bookmarks": {
+        "definition": "Manages bookmarks for data products, allowing users to save and retrieve frequently accessed data products."
+    },
+    "com.starburstdata.presto.dataproduct.comments": {
+        "definition": "Handles user comments or annotations on data products."
+    },
+    "com.starburstdata.presto.dataproduct.database": {
+        "definition": "Manages database-related operations for data products."
+    },
+    "com.starburstdata.presto.dataproduct.datadomain": {
+        "definition": "Organizes data products into data domains for better categorization and governance."
+    },
+    "com.starburstdata.presto.dataproduct.queryevent": {
+        "definition": "Tracks query events related to data products, such as execution history or performance metrics."
+    },
+    "com.starburstdata.presto.dataproduct.ratings": {
+        "definition": "Manages user ratings for data products, enabling feedback and quality assessment."
+    },
+    "com.starburstdata.presto.dataproduct.samplequeries": {
+        "definition": "Provides sample queries for data products to help users understand and utilize them effectively."
+    },
+    "com.starburstdata.presto.dataproduct.statistics": {
+        "definition": "Collects and manages statistics for data products to optimize query performance and provide insights."
+    },
+    "com.starburstdata.presto.dataproduct.tags": {
+        "definition": "Handles tagging of data products for easier organization and searchability."
+    },
+    "com.starburstdata.presto.dataproduct.telemetry": {
+        "definition": "Handles telemetry data collection and reporting for data products, providing insights into usage and performance."
+    },
+    "com.starburstdata.presto.dataproduct.trino": {
+        "definition": "Manages integration between data products and Trino, enabling seamless query execution and data access."
+    },
+    "com.starburstdata.presto.dataproduct.workflows": {
+        "definition": "Supports workflows related to data products, such as creation, updates, and lifecycle management."
+    },
+    "com.starburstdata.presto.functions": {
+        "definition": "Contains custom functions or extensions for Presto/Trino, enhancing query capabilities."
+    },
+    "com.starburstdata.presto.insights": {
+        "definition": "Provides tools and features for gathering insights into query performance, system usage, and optimization opportunities."
+    },
+    "com.starburstdata.presto.insights.dataretention": {
+        "definition": "Manages policies and mechanisms for retaining or purging data related to insights and analytics."
+    },
+    "com.starburstdata.presto.insights.metrics": {
+        "definition": "Collects and processes metrics for monitoring and analyzing system performance and query execution."
+    },
+    "com.starburstdata.presto.insights.persistence": {
+        "definition": "Handles the storage and retrieval of insights-related data, ensuring it is persistently available."
+    },
+    "com.starburstdata.presto.insights.queryhistory": {
+        "definition": "Tracks the history of executed queries, providing details for analysis and troubleshooting."
+    },
+    "com.starburstdata.presto.insights.queryhistory.model": {
+        "definition": "Defines the data model for representing query history, including metadata and execution details."
+    },
+    "com.starburstdata.presto.insights.querylogger": {
+        "definition": "Logs query execution details for auditing, debugging, and performance analysis."
+    },
+    "com.starburstdata.presto.insights.recommendation": {
+        "definition": "Generates recommendations for query optimization, resource allocation, or system configuration based on insights."
+    },
+    "com.starburstdata.presto.insights.usage": {
+        "definition": "Tracks and analyzes system usage patterns, helping identify trends and areas for improvement."
+    },
+    "com.starburstdata.presto.insights.util": {
+        "definition": "Provides utility classes and methods to support the insights module."
+    },
+    "com.starburstdata.presto.jobs.background": {
+        "definition": "Manages background jobs, such as maintenance tasks or periodic operations, in the Presto/Trino environment."
+    },
+    "com.starburstdata.presto.jobs.execution": {
+        "definition": "Handles the execution of jobs, ensuring they run efficiently and reliably."
+    },
+    "com.starburstdata.presto.jobs.work.mv": {
+        "definition": "Manages materialized views (MV) as part of job workflows, optimizing query performance and storage."
+    },
+    "com.starburstdata.presto.jobs.worker": {
+        "definition": "Represents worker nodes or processes involved in executing distributed jobs."
+    },
+    "com.starburstdata.presto.kerberos": {
+        "definition": "Manages Kerberos authentication and security integration for Presto/Trino."
+    },
+    "com.starburstdata.presto.license": {
+        "definition": "Handles licensing-related functionality, such as validation and enforcement, for Starburst Data's Presto/Trino distribution."
+    },
+    "com.starburstdata.presto.log": {
+        "definition": "Handles logging functionality for Presto, including capturing and managing logs for debugging, auditing, and monitoring."
+    },
+    "com.starburstdata.presto.okta": {
+        "definition": "Manages integration with Okta for authentication and identity management in Presto."
+    },
+    "com.starburstdata.presto.plugin.adx": {
+        "definition": "Provides a connector plugin for integrating Presto with Azure Data Explorer (ADX), enabling query execution on ADX data sources."
+    },
+    "com.starburstdata.presto.plugin.cassandra": {
+        "definition": "Implements a connector plugin for Cassandra, allowing Presto to query Cassandra databases."
+    },
+    "com.starburstdata.presto.plugin.cosmosdb": {
+        "definition": "Provides a connector plugin for Azure Cosmos DB, enabling Presto to interact with Cosmos DB data."
+    },
+    "com.starburstdata.presto.plugin.deltalake": {
+        "definition": "Implements a connector plugin for Delta Lake, allowing Presto to query and manage Delta Lake data."
+    },
+    "com.starburstdata.presto.plugin.deltalake.metastore.sync": {
+        "definition": "Handles synchronization between Delta Lake and its metastore, ensuring metadata consistency."
+    },
+    "com.starburstdata.presto.plugin.dynamodb": {
+        "definition": "Provides a connector plugin for Amazon DynamoDB, enabling Presto to query DynamoDB tables."
+    },
+    "com.starburstdata.presto.plugin.greenplum": {
+        "definition": "Implements a connector plugin for Greenplum, allowing Presto to query Greenplum databases."
+    },
+    "com.starburstdata.presto.plugin.groups": {
+        "definition": "Manages user groups and permissions for Presto plugins, enabling role-based access control."
+    },
+    "com.starburstdata.presto.plugin.hbase": {
+        "definition": "Provides a connector plugin for HBase, enabling Presto to query HBase tables."
+    },
+    "com.starburstdata.presto.plugin.hive": {
+        "definition": "Implements a connector plugin for Apache Hive, allowing Presto to query Hive tables and interact with Hive metastore."
+    },
+    "com.starburstdata.presto.plugin.hive.metastore.lakeformation": {
+        "definition": "Integrates Hive metastore with AWS Lake Formation, enabling Presto to query Lake Formation-managed data."
+    },
+    "com.starburstdata.presto.plugin.hive.metastore.lakeformation.v1": {
+        "definition": "Represents version 1 of the Hive metastore integration with AWS Lake Formation."
+    },
+    "com.starburstdata.presto.plugin.hive.metastore.sync": {
+        "definition": "Handles synchronization between Hive metastore and Presto, ensuring metadata consistency."
+    },
+    "com.starburstdata.presto.plugin.hive.security.ranger": {
+        "definition": "Integrates Hive with Apache Ranger for security and access control in Presto."
+    },
+    "com.starburstdata.presto.plugin.hive.security.sentry": {
+        "definition": "Integrates Hive with Apache Sentry for security and access control in Presto."
+    },
+    "com.starburstdata.presto.plugin.iceberg.catalog": {
+        "definition": "Provides a connector plugin for Apache Iceberg, enabling Presto to query Iceberg tables."
+    },
+    "com.starburstdata.presto.plugin.iceberg.catalog.lakeformation": {
+        "definition": "Integrates Iceberg catalog with AWS Lake Formation, enabling Presto to query Lake Formation-managed Iceberg tables."
+    },
+    "com.starburstdata.presto.plugin.iceberg.catalog.sync": {
+        "definition": "Handles synchronization between Iceberg catalog and Presto, ensuring metadata consistency."
+    },
+    "com.starburstdata.presto.plugin.kafka": {
+        "definition": "Provides a connector plugin for Apache Kafka, enabling Presto to query Kafka topics as tables."
+    },
+    "com.starburstdata.presto.plugin.kafka.schema.cloudera": {
+        "definition": "Manages schema integration for Kafka topics using Cloudera's schema registry."
+    },
+    "com.starburstdata.presto.plugin.maxcompute": {
+        "definition": "Implements a connector plugin for Alibaba MaxCompute, allowing Presto to query MaxCompute datasets."
+    },
+    "com.starburstdata.presto.plugin.mysql": {
+        "definition": "Provides a connector plugin for MySQL, enabling Presto to query MySQL databases."
+    },
+    "com.starburstdata.presto.plugin.postgresql": {
+        "definition": "Implements a connector plugin for PostgreSQL, allowing Presto to query PostgreSQL databases."
+    },
+    "com.starburstdata.presto.plugin.ranger": {
+        "definition": "Integrates Presto with Apache Ranger for centralized security and access control."
+    },
+    "com.starburstdata.presto.plugin.ranger.hive": {
+        "definition": "Manages security policies for Hive data sources using Apache Ranger."
+    },
+    "com.starburstdata.presto.plugin.ranger.rest": {
+        "definition": "Handles REST API communication with Apache Ranger for managing security policies."
+    },
+    "com.starburstdata.presto.plugin.redshift": {
+        "definition": "Provides a connector plugin for Amazon Redshift, enabling Presto to query Redshift data warehouses."
+    },
+    "com.starburstdata.presto.plugin.salesforce": {
+        "definition": "Implements a connector plugin for Salesforce, allowing Presto to query Salesforce data."
+    },
+    "com.starburstdata.presto.plugin.saphana": {
+        "definition": "Provides a connector plugin for SAP HANA, enabling Presto to query SAP HANA databases."
+    },
+    "com.starburstdata.presto.plugin.singlestore": {
+        "definition": "Implements a connector plugin for SingleStore (formerly MemSQL), allowing Presto to query SingleStore databases."
+    },
+    "com.starburstdata.presto.plugin.sqlserver": {
+        "definition": "Provides a connector plugin for Microsoft SQL Server, enabling Presto to query SQL Server databases."
+    },
+    "com.starburstdata.presto.plugin.stargate": {
+        "definition": "Implements a connector plugin for Stargate, enabling Presto to query Stargate-managed data."
+    },
+    "com.starburstdata.presto.plugin.synapse": {
+        "definition": "Provides a connector plugin for Azure Synapse Analytics, enabling Presto to query Synapse data warehouses."
+    },
+    "com.starburstdata.presto.plugin.teradata": {
+        "definition": "Implements a connector plugin for Teradata, allowing Presto to query Teradata databases."
+    },
+    "com.starburstdata.presto.plugin.toolkit.alias": {
+        "definition": "Manages aliasing functionality for Presto queries, allowing for simplified query references."
+    },
+    "com.starburstdata.presto.plugin.toolkit.eventlistener": {
+        "definition": "Provides event listener capabilities for Presto, enabling custom actions based on query events."
+    },
+    "com.starburstdata.presto.plugin.toolkit.security.aws": {
+        "definition": "Manages AWS-specific security features, such as IAM integration, for Presto plugins."
+    },
+    "com.starburstdata.presto.redirection": {
+        "definition": "Handles query redirection functionality, enabling Presto to route queries to appropriate clusters or data sources."
+    },
+    "com.starburstdata.presto.schemadiscovery": {
+        "definition": "Handles schema discovery functionality, enabling Presto to automatically detect and manage schemas in supported data sources."
+    },
+    "com.starburstdata.presto.schemadiscovery.cmd": {
+        "definition": "Provides command-line utilities or tools for schema discovery operations in Presto."
+    },
+    "com.starburstdata.presto.schemadiscovery.model": {
+        "definition": "Defines data models and structures used in schema discovery processes."
+    },
+    "com.starburstdata.presto.security.lakeformation.service": {
+        "definition": "Manages integration with AWS Lake Formation for security services, such as access control and permissions."
+    },
+    "com.starburstdata.presto.security.lakeformation.store": {
+        "definition": "Handles storage and retrieval of security-related metadata for AWS Lake Formation integration."
+    },
+    "com.starburstdata.presto.server": {
+        "definition": "Represents the core server functionality of Presto, including query execution, resource management, and server configuration."
+    },
+    "com.starburstdata.presto.server.api": {
+        "definition": "Provides APIs for interacting with the Presto server, enabling external tools and services to communicate with Presto."
+    },
+    "com.starburstdata.presto.server.api.binding": {
+        "definition": "Manages API bindings, mapping requests to appropriate server-side handlers."
+    },
+    "com.starburstdata.presto.server.api.error": {
+        "definition": "Handles error reporting and management for the Presto server APIs."
+    },
+    "com.starburstdata.presto.server.api.openapi": {
+        "definition": "Implements OpenAPI specifications for Presto server APIs, enabling standardized API documentation and interaction."
+    },
+    "com.starburstdata.presto.server.api.persistence": {
+        "definition": "Manages persistence of API-related data, such as session states or configurations."
+    },
+    "com.starburstdata.presto.server.api.swagger": {
+        "definition": "Provides Swagger-based documentation and tools for Presto server APIs."
+    },
+    "com.starburstdata.presto.server.diagnostics": {
+        "definition": "Handles diagnostic tools and logging for troubleshooting and monitoring the Presto server."
+    },
+    "com.starburstdata.presto.server.dynamiclogging": {
+        "definition": "Enables dynamic logging configuration for the Presto server, allowing log levels to be adjusted at runtime."
+    },
+    "com.starburstdata.presto.server.security.kerberos": {
+        "definition": "Manages Kerberos-based authentication for securing access to the Presto server."
+    },
+    "com.starburstdata.presto.server.security.multiple.tokens": {
+        "definition": "Handles security mechanisms involving multiple token-based authentication methods."
+    },
+    "com.starburstdata.presto.server.security.multiple.tokens.flow": {
+        "definition": "Manages authentication flows for multiple token-based security mechanisms."
+    },
+    "com.starburstdata.presto.server.security.multiple.tokens.oauth2": {
+        "definition": "Implements OAuth2-based token authentication for securing access to the Presto server."
+    },
+    "com.starburstdata.presto.server.security.multiple.tokens.ui": {
+        "definition": "Provides a user interface for managing multiple token-based authentication mechanisms."
+    },
+    "com.starburstdata.presto.server.security.saml": {
+        "definition": "Manages SAML-based authentication for securing access to the Presto server."
+    },
+    "com.starburstdata.presto.server.security.webui.access": {
+        "definition": "Manages access control for the Presto Web UI, ensuring secure access to the server's user interface."
+    },
+    "com.starburstdata.presto.server.security.webui.passthrough": {
+        "definition": "Implements passthrough authentication for the Presto Web UI, allowing seamless user authentication."
+    },
+    "com.starburstdata.presto.server.troubleshooting": {
+        "definition": "Provides tools and utilities for troubleshooting issues in the Presto server, such as performance or configuration problems."
+    },
+    "com.starburstdata.presto.server.troubleshooting.jfr": {
+        "definition": "Integrates Java Flight Recorder (JFR) for capturing diagnostic data to troubleshoot server performance issues."
+    },
+    "com.starburstdata.presto.server.troubleshooting.tracing": {
+        "definition": "Implements tracing functionality to monitor and debug query execution and server operations."
+    },
+    "com.starburstdata.presto.server.workload": {
+        "definition": "Manages workload-related features, such as query prioritization and resource allocation."
+    },
+    "com.starburstdata.presto.server.workload.resourcegroups": {
+        "definition": "Handles resource group management for workload isolation and prioritization in Presto."
+    },
+    "com.starburstdata.presto.sparkmanagement": {
+        "definition": "Provides integration and management tools for running Presto queries on Apache Spark."
+    },
+    "com.starburstdata.presto.telemetry": {
+        "definition": "Collects telemetry data from the Presto server for monitoring and analytics purposes."
+    },
+    "com.starburstdata.presto.telemetry.exporter": {
+        "definition": "Exports telemetry data to external systems or monitoring tools for further analysis."
+    },
+    "com.starburstdata.presto.testing": {
+        "definition": "Contains utilities and frameworks for testing Presto functionality and features."
+    },
+    "com.starburstdata.presto.testing.testcontainers": {
+        "definition": "Provides support for using Testcontainers to run integration tests with containerized environments."
+    },
+    "com.starburstdata.presto.tests.product.utils": {
+        "definition": "Includes utility classes and methods for product-level testing of Presto."
+    },
+    "com.starburstdata.presto.usagemetrics": {
+        "definition": "Collects and manages usage metrics for Presto, such as query statistics and resource consumption."
+    },
+    "com.starburstdata.presto.users.provisioning.scim": {
+        "definition": "Implements SCIM (System for Cross-domain Identity Management) for user provisioning and management in Presto."
+    },
+    "com.starburstdata.trino.metastore.sync": {
+        "definition": "Handles synchronization of metadata between Trino (formerly PrestoSQL) and external metastores."
+    },
+    "com.starburstdata.trino.storage": {
+        "definition": "Manages storage-related functionality for Trino, such as data access and storage abstraction."
+    },
+    "com.starburstdata.trino.storage.auth.kerberos": {
+        "definition": "Implements Kerberos-based authentication for secure access to storage systems in Trino."
+    },
+    "com.teradata.jdbc": {
+        "definition": "Represents the Teradata JDBC driver, used for connecting to and querying Teradata databases."
+    },
+    "io.airlift.log": {
+        "definition": "Provides logging utilities from the Airlift framework, which is commonly used in Presto for logging and diagnostics."
+    },
+    "io.airlift.log.Level": {
+        "definition": "Represents logging levels (e.g., DEBUG, INFO, WARN, ERROR) in the Airlift logging framework, used to control the verbosity of logs."
+    },
+    "io.airlift.log.Logger": {
+        "definition": "Provides logging functionality in the Airlift framework, allowing applications to log messages at various levels."
+    },
+    "io.jsonwebtoken": {
+        "definition": "A library for creating and verifying JSON Web Tokens (JWTs), commonly used for authentication and secure data exchange."
+    },
+    "io.minio": {
+        "definition": "A library for interacting with MinIO, an object storage system compatible with Amazon S3 APIs."
+    },
+    "io.openlineage.client": {
+        "definition": "Provides client functionality for OpenLineage, a framework for collecting metadata about data pipelines and lineage."
+    },
+    "io.opentelemetry": {
+        "definition": "A library for OpenTelemetry, used for distributed tracing, metrics, and logging in observability systems."
+    },
+    "io.pebbletemplates.pebble": {
+        "definition": "A templating engine for Java, used to generate dynamic content by combining templates with data."
+    },
+    "io.starburstdata.trino.testing": {
+        "definition": "Contains utilities and frameworks for testing Trino (formerly PrestoSQL) functionality and features."
+    },
+    "io.trino.connector": {
+        "definition": "Represents the base functionality for Trino connectors, which enable Trino to interact with various data sources."
+    },
+    "io.trino.connector.informationschema": {
+        "definition": "Implements the Information Schema connector, providing metadata about schemas, tables, and columns in Trino."
+    },
+    "io.trino.connector.system": {
+        "definition": "Manages the system connector in Trino, which provides system-level metadata and operations."
+    },
+    "io.trino.cost": {
+        "definition": "Handles cost estimation for query planning and optimization in Trino."
+    },
+    "io.trino.dispatcher": {
+        "definition": "Manages query dispatching in Trino, including routing and scheduling of queries."
+    },
+    "io.trino.event": {
+        "definition": "Handles event generation and processing in Trino, such as query completion or failure events."
+    },
+    "io.trino.eventlistener": {
+        "definition": "Provides an interface for listening to and handling events generated by Trino."
+    },
+    "io.trino.exchange": {
+        "definition": "Manages data exchange between nodes in a Trino cluster during query execution."
+    },
+    "io.trino.execution": {
+        "definition": "Represents the core execution engine of Trino, responsible for running queries and managing tasks."
+    },
+    "io.trino.execution.buffer": {
+        "definition": "Handles buffering of data during query execution in Trino."
+    },
+    "io.trino.execution.executor.dedicated": {
+        "definition": "Manages dedicated executors for running specific tasks in Trino."
+    },
+    "io.trino.execution.executor.scheduler": {
+        "definition": "Implements scheduling logic for task execution in Trino."
+    },
+    "io.trino.execution.executor.timesharing": {
+        "definition": "Manages time-sharing executors in Trino to balance task execution across available resources."
+    },
+    "io.trino.execution.resourcegroups": {
+        "definition": "Handles resource group management for query execution, enabling workload isolation and prioritization."
+    },
+    "io.trino.execution.scheduler": {
+        "definition": "Implements scheduling logic for query execution, determining how tasks are distributed across nodes."
+    },
+    "io.trino.execution.scheduler.faulttolerant": {
+        "definition": "Provides fault-tolerant scheduling mechanisms to ensure query execution continues despite node or task failures."
+    },
+    "io.trino.execution.scheduler.policy": {
+        "definition": "Defines policies for scheduling tasks, such as priority-based or round-robin scheduling."
+    },
+    "io.trino.failuredetector": {
+        "definition": "Detects and handles failures in the Trino cluster, such as node or task failures."
+    },
+    "io.trino.filesystem.cache": {
+        "definition": "Implements caching mechanisms for file system operations to improve performance."
+    },
+    "io.trino.filesystem.s3": {
+        "definition": "Provides support for interacting with Amazon S3 or S3-compatible storage systems."
+    },
+    "io.trino.functions.python": {
+        "definition": "Enables integration with Python functions, allowing Python-based UDFs (User-Defined Functions) in Trino."
+    },
+    "io.trino.hdfs": {
+        "definition": "Manages interactions with Hadoop Distributed File System (HDFS) for data storage and retrieval."
+    },
+    "io.trino.hdfs.s3": {
+        "definition": "Provides support for accessing S3 storage through HDFS, enabling hybrid storage solutions."
+    },
+    "io.trino.hive.formats.avro": {
+        "definition": "Handles Avro file formats in the Hive connector, enabling Trino to read and write Avro data."
+    },
+    "io.trino.log": {
+        "definition": "Manages logging functionality in Trino, including log generation and configuration."
+    },
+    "io.trino.memory": {
+        "definition": "Handles memory management in Trino, ensuring efficient allocation and usage during query execution."
+    },
+    "io.trino.metadata": {
+        "definition": "Manages metadata for schemas, tables, and columns, enabling query planning and execution."
+    },
+    "io.trino.operator": {
+        "definition": "Represents core operators in Trino's query execution engine, such as filters, projections, and joins."
+    },
+    "io.trino.operator.aggregation": {
+        "definition": "Implements aggregation operators for performing operations like SUM, AVG, and COUNT during query execution."
+    },
+    "io.trino.operator.exchange": {
+        "definition": "Manages data exchange operators for transferring data between stages of query execution."
+    },
+    "io.trino.operator.join": {
+        "definition": "Implements join operators for combining data from multiple sources based on specified conditions."
+    },
+    "io.trino.operator.output": {
+        "definition": "Handles output operators, which write query results to the client or external systems."
+    },
+    "io.trino.orc": {
+        "definition": "Handles operations related to the ORC (Optimized Row Columnar) file format, including reading and writing ORC files."
+    },
+    "io.trino.parquet.metadata": {
+        "definition": "Manages metadata for Parquet files, such as schema and column information, used during query execution."
+    },
+    "io.trino.parquet.reader": {
+        "definition": "Implements functionality for reading Parquet files, including decoding and deserializing data."
+    },
+    "io.trino.parquet.reader.flat": {
+        "definition": "Provides optimized readers for flat (non-nested) Parquet data structures to improve performance."
+    },
+    "io.trino.plugin.base.jmx": {
+        "definition": "Provides JMX (Java Management Extensions) utilities for monitoring and managing Trino plugins."
+    },
+    "io.trino.plugin.base.ldap": {
+        "definition": "Implements LDAP (Lightweight Directory Access Protocol) integration for authentication and user management in Trino plugins."
+    },
+    "io.trino.plugin.base.logging": {
+        "definition": "Handles logging utilities for Trino plugins, enabling structured and consistent logging."
+    },
+    "io.trino.plugin.base.mapping": {
+        "definition": "Provides functionality for mapping identifiers (e.g., schema or table names) in Trino plugins."
+    },
+    "io.trino.plugin.base.security": {
+        "definition": "Implements base security features for Trino plugins, such as access control and authentication."
+    },
+    "io.trino.plugin.bigquery": {
+        "definition": "Represents the BigQuery connector, enabling Trino to query data stored in Google BigQuery."
+    },
+    "io.trino.plugin.cassandra": {
+        "definition": "Represents the Cassandra connector, enabling Trino to query data stored in Apache Cassandra."
+    },
+    "io.trino.plugin.deltalake": {
+        "definition": "Represents the Delta Lake connector, enabling Trino to query data stored in Delta Lake."
+    },
+    "io.trino.plugin.deltalake.metastore": {
+        "definition": "Manages interactions with the metastore for Delta Lake, such as retrieving table metadata."
+    },
+    "io.trino.plugin.deltalake.procedure": {
+        "definition": "Implements procedures for managing Delta Lake, such as maintenance or metadata updates."
+    },
+    "io.trino.plugin.deltalake.transactionlog": {
+        "definition": "Handles operations related to Delta Lake's transaction log, which tracks changes to data and metadata."
+    },
+    "io.trino.plugin.deltalake.transactionlog.checkpoint": {
+        "definition": "Manages checkpoints in Delta Lake's transaction log to optimize query performance and recovery."
+    },
+    "io.trino.plugin.deltalake.transactionlog.statistics": {
+        "definition": "Handles statistics collection and management for Delta Lake's transaction log to improve query planning."
+    },
+    "io.trino.plugin.deltalake.transactionlog.writer": {
+        "definition": "Implements functionality for writing to Delta Lake's transaction log, such as recording data changes."
+    },
+    "io.trino.plugin.elasticsearch": {
+        "definition": "Represents the Elasticsearch connector, enabling Trino to query data stored in Elasticsearch."
+    },
+    "io.trino.plugin.elasticsearch.client": {
+        "definition": "Manages the client interface for interacting with Elasticsearch, including query execution and data retrieval."
+    },
+    "io.trino.plugin.eventlistener.kafka": {
+        "definition": "Represents an event listener for Kafka, enabling Trino to publish query events to a Kafka topic."
+    },
+    "io.trino.plugin.eventlistener.mysql": {
+        "definition": "Represents an event listener for MySQL, enabling Trino to log query events to a MySQL database."
+    },
+    "io.trino.plugin.exchange.filesystem.s3": {
+        "definition": "Handles data exchange operations using S3 as the underlying filesystem for temporary storage during query execution."
+    },
+    "io.trino.plugin.google.sheets": {
+        "definition": "Represents the Google Sheets connector, enabling Trino to query data stored in Google Sheets."
+    },
+    "io.trino.plugin.hive": {
+        "definition": "Represents the Hive connector, enabling Trino to query data stored in Apache Hive or Hive-compatible systems."
+    },
+    "io.trino.plugin.hive.metastore": {
+        "definition": "Manages interactions with the Hive metastore, which stores metadata about Hive tables and schemas."
+    },
+    "io.trino.plugin.hive.metastore.glue": {
+        "definition": "Provides integration with AWS Glue as a Hive metastore replacement for managing metadata."
+    },
+    "io.trino.plugin.hive.metastore.thrift": {
+        "definition": "Implements communication with the Hive metastore using the Thrift protocol."
+    },
+    "io.trino.plugin.hive.orc": {
+        "definition": "andles operations related to the ORC file format within the Hive connector, including reading and writing ORC files."
+    },
+    "io.trino.plugin.hive.statistics": {
+        "definition": "Collects and manages statistics for Hive tables to improve query planning and optimization."
+    },
+    "io.trino.plugin.hive.util": {
+        "definition": "Provides utility functions and helpers for the Hive connector."
+    },
+    "io.trino.plugin.hudi.query": {
+        "definition": "Represents the Hudi connector's query functionality, enabling Trino to query data stored in Apache Hudi."
+    },
+    "io.trino.plugin.iceberg": {
+        "definition": "Represents the Iceberg connector, enabling Trino to query data stored in Apache Iceberg."
+    },
+    "io.trino.plugin.iceberg.catalog.glue": {
+        "definition": "Provides integration with AWS Glue as a catalog for managing Iceberg table metadata."
+    },
+    "io.trino.plugin.iceberg.catalog.hms": {
+        "definition": "Provides integration with the Hive Metastore (HMS) as a catalog for managing Iceberg table metadata."
+    },
+    "io.trino.plugin.iceberg.catalog.jdbc": {
+        "definition": "Implements a JDBC-based catalog for managing Iceberg table metadata."
+    },
+    "io.trino.plugin.iceberg.catalog.rest": {
+        "definition": "Implements a REST-based catalog for managing Iceberg table metadata."
+    },
+    "io.trino.plugin.iceberg.procedure": {
+        "definition": "Implements procedures for managing Iceberg tables, such as maintenance or metadata updates."
+    },
+    "io.trino.plugin.jdbc": {
+        "definition": "Represents the base JDBC connector, providing functionality for Trino to interact with relational databases via JDBC."
+    },
+    "io.trino.plugin.jmx": {
+        "definition": "Represents the JMX connector, enabling Trino to query JMX (Java Management Extensions) metrics as tables."
+    },
+    "io.trino.plugin.kafka.schema.file": {
+        "definition": "Handles schema management for the Kafka connector using file-based schema definitions."
+    },
+    "io.trino.plugin.ldapgroup": {
+        "definition": "Provides functionality for managing LDAP group-based access control in Trino."
+    },
+    "io.trino.plugin.mariadb": {
+        "definition": "Represents the MariaDB connector, enabling Trino to query data stored in MariaDB databases."
+    },
+    "io.trino.plugin.mongodb": {
+        "definition": "Represents the MongoDB connector, enabling Trino to query data stored in MongoDB."
+    },
+    "io.trino.plugin.mysql": {
+        "definition": "Represents the MySQL connector, enabling Trino to query data stored in MySQL databases."
+    },
+    "io.trino.plugin.opa": {
+        "definition": "Integrates with Open Policy Agent (OPA) for enforcing fine-grained access control policies in Trino."
+    },
+    "io.trino.plugin.openlineage": {
+        "definition": "Provides integration with OpenLineage for tracking and reporting lineage information for Trino queries."
+    },
+    "io.trino.plugin.opensearch": {
+        "definition": "Represents the OpenSearch connector, enabling Trino to query data stored in OpenSearch."
+    },
+    "io.trino.plugin.opensearch.client": {
+        "definition": "Manages the client interface for interacting with OpenSearch, including query execution and data retrieval."
+    },
+    "io.trino.plugin.password.ldap": {
+        "definition": "Implements LDAP-based password authentication for Trino."
+    },
+    "io.trino.plugin.password.salesforce": {
+        "definition": "Implements Salesforce-based password authentication for Trino."
+    },
+    "io.trino.plugin.pinot": {
+        "definition": "Represents the Apache Pinot connector, enabling Trino to query data stored in Apache Pinot."
+    },
+    "io.trino.plugin.pinot.client": {
+        "definition": "Manages the client interface for interacting with Apache Pinot, including query execution."
+    },
+    "io.trino.plugin.postgresql": {
+        "definition": "Represents the PostgreSQL connector, enabling Trino to query data stored in PostgreSQL databases."
+    },
+    "io.trino.plugin.prometheus": {
+        "definition": "Represents the Prometheus connector, enabling Trino to query metrics data stored in Prometheus."
+    },
+    "io.trino.plugin.ranger": {
+        "definition": "Integrates with Apache Ranger for managing access control policies in Trino."
+    },
+    "io.trino.plugin.redis": {
+        "definition": "Represents the Redis connector, enabling Trino to query data stored in Redis."
+    },
+    "io.trino.plugin.redshift": {
+        "definition": "Represents the Amazon Redshift connector, enabling Trino to query data stored in Amazon Redshift."
+    },
+    "io.trino.plugin.resourcegroups.db": {
+        "definition": "Manages resource group configurations stored in a database for workload management in Trino."
+    },
+    "io.trino.plugin.session.db": {
+        "definition": "Manages session properties stored in a database for Trino queries."
+    },
+    "io.trino.plugin.sqlserver": {
+        "definition": "Represents the SQL Server connector, enabling Trino to query data stored in Microsoft SQL Server."
+    },
+    "io.trino.plugin.thrift.server": {
+        "definition": "Implements a Thrift-based server for communication between Trino components or plugins."
+    },
+    "io.trino.plugin.vertica": {
+        "definition": "Represents the Vertica connector, enabling Trino to query data stored in Vertica databases."
+    },
+    "io.trino.proxy": {
+        "definition": "Handles proxying requests between Trino components or external systems."
+    },
+    "io.trino.security": {
+        "definition": "Provides core security features for Trino, including authentication and access control mechanisms."
+    },
+    "io.trino.server": {
+        "definition": "Represents the main Trino server package, handling query execution, resource management, and server operations."
+    },
+    "io.trino.server.protocol": {
+        "definition": "Manages communication protocols used by the Trino server, such as HTTP or custom protocols for query execution."
+    },
+    "io.trino.server.protocol.spooling": {
+        "definition": "Implements spooling mechanisms for handling large query results efficiently in the Trino server protocol."
+    },
+    "io.trino.server.remotetask": {
+        "definition": "Manages remote tasks executed on worker nodes as part of distributed query execution."
+    },
+    "io.trino.server.security": {
+        "definition": "Provides server-side security features, such as authentication and encryption."
+    },
+    "io.trino.server.security.jwt": {
+        "definition": "Implements JWT (JSON Web Token)-based authentication for securing Trino server access."
+    },
+    "io.trino.server.security.oauth2": {
+        "definition": "Implements OAuth 2.0 authentication for securing Trino server access."
+    },
+    "io.trino.server.ui": {
+        "definition": "Handles the Trino web UI, providing a user interface for monitoring and managing the server."
+    },
+    "io.trino.spi.rest": {
+        "definition": "Defines the SPI (Service Provider Interface) for REST-based interactions, enabling plugins to expose REST endpoints."
+    },
+    "io.trino.spi.schemadiscovery": {
+        "definition": "Provides the SPI for schema discovery, allowing plugins to dynamically discover schemas and tables."
+    },
+    "io.trino.spiller": {
+        "definition": "Manages spilling of intermediate query results to disk when memory limits are exceeded during query execution."
+    },
+    "io.trino.spooling.filesystem": {
+        "definition": "Handles spooling operations using a filesystem for temporary storage of large query results."
+    },
+    "io.trino.sql.gen": {
+        "definition": "Implements SQL generation utilities, such as translating query plans into executable SQL."
+    },
+    "io.trino.sql.gen.columnar": {
+        "definition": "Provides columnar-specific SQL generation utilities for optimizing query execution."
+    },
+    "io.trino.sql.planner": {
+        "definition": "Handles query planning, including optimization and generation of execution plans for Trino queries."
+    },
+    "io.trino.sql.planner.iterative": {
+        "definition": "Implements the iterative query planner, which applies a series of optimization rules to improve query execution plans."
+    },
+    "io.trino.sql.planner.iterative.rule": {
+        "definition": "Contains individual optimization rules used by the iterative query planner to transform and optimize query plans."
+    },
+    "io.trino.sql.planner.optimizations": {
+        "definition": "Provides additional query optimization techniques, such as predicate pushdown and join reordering, to enhance query performance."
+    },
+    "io.trino.testing": {
+        "definition": "Provides utilities and frameworks for testing Trino components, including connectors and query execution."
+    },
+    "io.trino.testing.containers": {
+        "definition": "Manages containerized environments for testing Trino, such as Docker-based setups for external services."
+    },
+    "io.trino.testing.containers.junit": {
+        "definition": "Integrates containerized testing environments with JUnit, enabling automated tests for Trino components."
+    },
+    "io.trino.testing.kafka": {
+        "definition": "Provides utilities for testing Trino's Kafka connector, including setup and teardown of Kafka test environments."
+    },
+    "io.trino.testing.minio": {
+        "definition": "Provides utilities for testing Trino's S3-compatible connectors using MinIO as a mock S3 service."
+    },
+    "io.trino.testing.services.junit": {
+        "definition": "Manages external services for testing Trino, integrated with JUnit for automated testing workflows."
+    },
+    "io.trino.testng.services": {
+        "definition": "Provides TestNG-based utilities for managing external services and testing Trino components."
+    },
+    "io.trino.transaction": {
+        "definition": "Manages transaction handling in Trino, including ACID compliance and distributed transaction coordination."
+    },
+    "io.trino.type": {
+        "definition": "Defines and manages data types in Trino, including custom types and type coercion logic."
+    },
+    "io.trino.util": {
+        "definition": "Provides utility classes and helper functions used across various Trino components."
+    },
+    "io.trino.verifier": {
+        "definition": "Implements the Trino Verifier, a tool for validating query correctness and performance across different environments or versions."
+    },
+    "java.util.logging": {
+        "definition": "Represents the standard Java logging framework for capturing and managing log messages."
+    },
+    "java.util.logging.Level": {
+        "definition": "Defines logging levels (e.g., INFO, WARNING, SEVERE) for controlling the verbosity of log messages in the Java logging framework."
+    },
+    "java.net": {
+        "definition": "Represents the Java Networking package, which provides classes for implementing networking applications. It includes support for URLs, sockets, datagrams, and IP addressing."
+    },
+    "java.net.ssl": {
+        "definition": "Represents the Java Secure Socket Extension (JSSE) package, which provides classes for secure communication over networks using protocols like SSL (Secure Sockets Layer) and TLS (Transport Layer Security)."
+    },
+    "net.snowflake.client.jdbc": {
+        "definition": "Represents the Snowflake JDBC client, enabling Trino to interact with Snowflake databases."
+    },
+    "org.apache.commons.lang3": {
+        "definition": "Provides utility classes from Apache Commons Lang, such as String manipulation, object comparison, and reflection utilities."
+    },
+    "org.apache.hadoop": {
+        "definition": "Represents the Hadoop framework, including file system and data processing utilities used by Trino's Hive and HDFS connectors."
+    },
+    "org.apache.hive": {
+        "definition": "Represents Apache Hive components, including metastore and query execution utilities, used by Trino's Hive connector."
+    },
+    "org.apache.iceberg": {
+        "definition": "Represents Apache Iceberg, a table format for large-scale analytics that supports schema evolution and partitioning."
+    },
+    "org.apache.kafka": {
+        "definition": "Represents Apache Kafka, a distributed event streaming platform used for building real-time data pipelines and streaming applications."
+    },
+    "org.apache.ranger": {
+        "definition": "Represents Apache Ranger, a framework for managing and enforcing data access control policies across various services."
+    },
+    "org.apache.sentry": {
+        "definition": "Represents Apache Sentry, a system for enforcing fine-grained role-based authorization to data and metadata in Hadoop."
+    },
+    "org.apache.thrift": {
+        "definition": "Represents Apache Thrift, a framework for defining and creating cross-language services using a binary communication protocol."
+    },
+    "org.assertj.core": {
+        "definition": "Provides AssertJ, a fluent assertion library for Java, used for writing readable and maintainable test assertions."
+    },
+    "org.jsoup": {
+        "definition": "Represents Jsoup, a Java library for working with real-world HTML, including parsing, manipulating, and extracting data."
+    },
+    "org.junit.jupiter": {
+        "definition": "Represents JUnit 5 (Jupiter), a testing framework for writing and executing unit tests in Java."
+    },
+    "org.keycloak": {
+        "definition": "Represents Keycloak, an open-source identity and access management solution for securing applications and services."
+    },
+    "org.postgresql": {
+        "definition": "Represents the PostgreSQL JDBC driver, enabling Java applications to interact with PostgreSQL databases."
+    },
+    "org.testcontainers": {
+        "definition": "Provides Testcontainers, a Java library for creating lightweight, disposable containers for testing purposes."
+    },
+    "software.amazon": {
+        "definition": "Represents the base package for AWS SDKs and tools provided by Amazon."
+    },
+    "software.amazon.awssdk.auth": {
+        "definition": "Provides authentication utilities for the AWS SDK, including credential providers and signing mechanisms."
+    },
+    "software.amazon.awssdk.services.glue": {
+        "definition": "Represents the AWS Glue service, used for managing ETL (Extract, Transform, Load) jobs and metadata catalogs."
+    },
+    "software.amazon.awssdk.services.lakeformation": {
+        "definition": "Represents the AWS Lake Formation service, used for managing data lakes and access control."
+    },
+    "software.amazon.awssdk.services.s3": {
+        "definition": "Represents the AWS S3 service, used for interacting with Amazon Simple Storage Service (S3) buckets and objects."
+    },
+    "software.amazon.awssdk.services.sts": {
+        "definition": "Represents the AWS Security Token Service (STS), used for requesting temporary credentials for AWS services."
+    },
+    "uk.org.webcompere.systemstubs": {
+        "definition": "Provides System Stubs, a library for testing code that interacts with system-level resources like environment variables, system properties, and standard input/output."
+    }
+}
